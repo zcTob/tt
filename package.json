@@ -7,7 +7,7 @@
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server",
     "babel": "./node_modules/.bin/babel demo --out-dir lib1",
-    "p": "semantic-release --no-ci -d false -t 'next${version}'"
+    "p": "semantic-release --no-ci -d true -t 'next${version}'"
   },
   "dependencies": {
     "@babel/cli": "^7.7.7",
